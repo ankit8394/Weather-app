@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.container{
+    background: url(assets/autumn-7589934_1920.jpg);
+    object-fit: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+header h1{
+    color: aqua;
+    padding: 20px;
+    text-align: left;
+}
+h2{
+    font-size: 50px;
+}
+#main{
+    display: grid;
+    place-items: center;
+}
+#cityInput{
+    background-color: rgba(0, 0, 0, 0.664);
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 80px;
+    width: 30%;
+    border: none;
+}
+::placeholder::after{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.btn{
+    background-color: #17C473;
+    border: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    border-radius: 80px;
+    font-weight: 600;
+}
+.date{
+    font-size: 25px;
+    font-weight: 600;
+}
+#temp{
+    font-size: 150px;
+    font-weight: 600;
+    color: #00FFFF;
+}
+#details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#humidity,#description,i{
+    font-size: 30px;
+    font-weight: 600;
+}
+.disp{
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 426px) {
+    header h1{
+        padding: 10px;
+    }
+    #cityInput,#cityInput{
+        font-size: 20px;
+        padding: 5px 10px;
+        width: 60%;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #temp{
+        font-size: 110px;
+        font-weight: 600;
+        color: #00FFFF;
+    }
+    #humidity,#description,i{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .disp{
+        font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 200px) {
+    header h1{
+        padding: 10px;
+    }
+    #cityInput,#cityInput{
+        font-size: 20px;
+        padding: 5px 10px;
+        width: 60%;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #temp{
+        font-size: 110px;
+        font-weight: 600;
+        color: #00FFFF;
+    }
+    #humidity,#description,i{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .disp{
+        font-size: 25px;
+    }
+  }
