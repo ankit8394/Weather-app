@@ -14,7 +14,7 @@ async function getWeather() {
         return;
     }
     
-    const url = `https://www.weatherapi.com/docs/conditions.json?key=${apiKey}&q=${city}&aqi=no`;
+    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
     
     
     try {
