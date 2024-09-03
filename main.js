@@ -13,7 +13,7 @@ async function getWeather() {
         weatherResult.innerHTML = 'Please enter a city name.';
         return;
     }
-    const url = 'http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no';
+    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
     
     
     try {
