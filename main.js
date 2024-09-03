@@ -13,7 +13,7 @@ async function getWeather() {
         weatherResult.innerHTML = 'Please enter a city name.';
         return;
     }
-    const url = `https://api.weatherapi.com/v1/current.json?key=ec661d77615e46e2b20171648243008&q=Rishikesh&aqi=no`;
+    const url = 'http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no';
     
     
     try {
