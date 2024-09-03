@@ -14,7 +14,7 @@ async function getWeather() {
         return;
     }
     
-    const url = `https://www.weatherapi.com/docs/conditions.json?key=${apiKey}&q=${city}&aqi=no`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ca695dcbc66c5fa3d0cb955033fd918f`;
     
     
     try {
