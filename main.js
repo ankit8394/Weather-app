@@ -13,12 +13,7 @@ async function getWeather() {
         weatherResult.innerHTML = 'Please enter a city name.';
         return;
     }
-    
-<<<<<<< HEAD
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ca695dcbc66c5fa3d0cb955033fd918f`;
-=======
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
->>>>>>> ab49599aa59cbf13cabc447215af34ec4b867fd0
     
     
     try {
