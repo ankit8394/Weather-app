@@ -1,5 +1,5 @@
-//http://api.weatherapi.com/v1/current.json?key=ec661d77615e46e2b20171648243008&q=Rishikesh&aqi=no
-const apiKey = ec661d77615e46e2b20171648243008;
+//https://api.weatherapi.com/v1/current.json?key=ec661d77615e46e2b20171648243008&q=rishikesh&aqi=no
+
 const img = document.getElementById("img");
 const weatherResult = document.getElementById('weatherResult');
 const dateElement = document.getElementById('current-date');
@@ -13,8 +13,7 @@ async function getWeather() {
         return;
     }
     
-
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=ec661d77615e46e2b20171648243008&q=${city}&aqi=no`;
     
     
     try {
