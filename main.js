@@ -13,7 +13,11 @@ async function getWeather() {
         return;
     }
     
-    const url = `https://api.weatherapi.com/v1/current.json?key=ec661d77615e46e2b20171648243008&q=${city}&aqi=no`;
+<<<<<<< HEAD
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ca695dcbc66c5fa3d0cb955033fd918f`;
+=======
+    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+>>>>>>> ab49599aa59cbf13cabc447215af34ec4b867fd0
     
     
     try {
